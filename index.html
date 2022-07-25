@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gluten UI</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+  </head>
+  <body>
+    <header class="text-gray-600 body-font">
+      <div
+        class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"
+      >
+        <a
+          class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"
+        >
+          <img
+            style="height: 80px; width: 80px"
+            class="w-10 h-10 text-white p-1 rounded-full"
+            src="https://img.etimg.com/thumb/msid-91507580,width-650,imgsize-78428,,resizemode-4,quality-100/istock-1297787046.jpg"
+            alt=""
+          />
+          <!-- <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"
+            ></path>
+          </svg> -->
+          <span class="ml-3 text-xl">GLUTEN ALLERGY</span>
+        </a>
+        <nav
+          class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400 flex flex-wrap items-center text-base justify-center"
+        >
+          <a href="#self" class="mr-5 hover:text-gray-900">Self Care</a>
+          <a href="https://www.drugs.com/condition/celiac-disease.html" class="mr-5 hover:text-gray-900">Medications</a>
+          <a href="#dia" class="mr-5 hover:text-gray-900">Diagnosis</a>
+          <a href="#special" class="mr-5 hover:text-gray-900">Specialists</a>
+        </nav>
+        <a href="https://www.niddk.nih.gov/health-information/digestive-diseases/celiac-disease/treatment"><button
+          class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0"
+        >
+          Treatments
+          <svg
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            class="w-4 h-4 ml-1"
+            viewBox="0 0 24 24"
+          >
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </button></a>
+      </div>
+    </header>
+    <section class="text-gray-600 body-font">
+      <div
+        class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center"
+      >
+        <div
+          class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
+        >
+          <h1
+            class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900"
+          >
+            Celliac Disease<br class="hidden lg:inline-block" />
+          </h1>
+          <p class="mb-8 leading-relaxed">
+            An immune reaction to eating gluten, a protein found in wheat,
+            barley and rye. Over time, the immune reaction to eating gluten
+            creates inflammation that damages the small intestine's lining,
+            leading to medical complications. It also prevents absorption of
+            some nutrients (malabsorption).The classic symptom is diarrhoea.
+            Other symptoms include bloating, wind, fatigue, low blood count
+            (anaemia) and osteoporosis. Many people have no symptoms. The
+            mainstay of treatment is a strict gluten-free diet that can help
+            manage symptoms and promote intestinal healing.
+          </p>
+          <div class="flex justify-center">
+            <a
+              href="https://www.webmd.com/digestive-disorders/celiac-disease/celiac-disease"
+              ><button
+                class="inline-flex text-white bg-pink-500 border-0 py-2 px-6 focus:outline-none hover:bg-pink-600 rounded text-lg"
+              >
+                Overview
+              </button></a
+            >
+            <a
+              href="https://www.webmd.com/digestive-disorders/celiac-disease/celiac-disease-symptoms"
+              ><button
+                class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg"
+              >
+                Symptoms
+              </button></a
+            >
+          </div>
+        </div>
+        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+          <img
+            class="object-cover object-center rounded"
+            alt="hero"
+            src="https://media.istockphoto.com/photos/wheat-field-picture-id482927758?b=1&k=20&m=482927758&s=170667a&w=0&h=RtuduC1622ugMobG5X81NR6VGK80RhVqpjLJJdzkcaw="
+          />
+        </div>
+      </div>
+    </section>
+    <hr />
+    <section class="text-gray-600 body-font">
+      <div class="container px-5 py-24 mx-auto">
+        <div class="flex flex-col text-center w-full mb-20">
+          <h1
+            class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900"
+          >
+            How Do I Know If I Have Celiac Disease?
+          </h1>
+          <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
+            Diagnosis: What to Expect Since celiac disease tends to run in
+            families, if you have a parent, child, brother, or sister with the
+            disease, talk to your doctor about whether you should be tested.
+            <strong>
+              Celiac disease is more common in people with type 1 diabetes,
+              autoimmune liver disease, thyroid disease, Down syndrome, Turner
+              syndrome, or Williams syndrome.</strong
+            >
+            So if you have any of these conditions, you should also ask your
+            doctor to test you for celiac. Gluten Needed Before Tests You’ll
+            need to take some tests to find out if you have celiac disease. And
+            for some of these tests to be accurate, you’ll have to have some
+            gluten in your diet. If you’re on a gluten-free diet, your doctor
+            may put you on a "gluten challenge" plan before you take these
+            tests. You’ll eat at least two servings of gluten (four slices of
+            wheat-based bread) every day for 8 weeks.
+          </p>
+          <p>
+            Blood and Genetic Tests To find out if you have celiac disease, you
+            may first get: Blood test. This test checks for certain antibodies
+            in your blood. Almost everyone with celiac has them in their blood
+            at higher-than-normal levels.
+            <strong> HLA genetic test.</strong> This looks for the
+            <strong>HLA-DQ2 and HLA-DQ8 genes</strong>. If you don’t have them,
+            it’s very unlikely that you have celiac disease. You may get a blood
+            test, saliva test, or a swab of the inside of your cheek. These
+            tests aren’t enough to show that you have celiac disease. But if the
+            results show that you might, or it seems very likely you might have
+            celiac disease, your next step is <br />
+            Endoscopy This procedure lets your doctor check your small intestine
+            for damage. They’ll insert a scope with a camera through your mouth,
+            down your esophagus, and into your intestinal tract. Your doctor
+            will likely take a little bit of tissue from the lining of your
+            small intestine for further study. Doctors call this a biopsy.
+          </p>
+        </div>
+        <div class="flex flex-wrap -m-4 text-center">
+          <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+            <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="text-pink-500 w-12 h-12 mb-3 inline-block"
+                viewBox="0 0 24 24"
+              >
+                <path d="M8 17l4 4 4-4m-4-5v9"></path>
+                <path
+                  d="M20.88 18.09A5 5 0 0018 9h-1.26A8 8 0 103 16.29"
+                ></path>
+              </svg>
+              <h2 class="title-font font-medium text-3xl text-gray-900">
+                600K
+              </h2>
+              <p class="leading-relaxed">Recovered</p>
+            </div>
+          </div>
+          <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+            <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="text-pink-500 w-12 h-12 mb-3 inline-block"
+                viewBox="0 0 24 24"
+              >
+                <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 00-3-3.87m-4-12a4 4 0 010 7.75"></path>
+              </svg>
+              <h2 class="title-font font-medium text-3xl text-gray-900">
+                3.5M
+              </h2>
+              <p class="leading-relaxed">Patients</p>
+            </div>
+          </div>
+          <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+            <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="text-pink-500 w-12 h-12 mb-3 inline-block"
+                viewBox="0 0 24 24"
+              >
+                <path d="M3 18v-6a9 9 0 0118 0v6"></path>
+                <path
+                  d="M21 19a2 2 0 01-2 2h-1a2 2 0 01-2-2v-3a2 2 0 012-2h3zM3 19a2 2 0 002 2h1a2 2 0 002-2v-3a2 2 0 00-2-2H3z"
+                ></path>
+              </svg>
+              <h2 class="title-font font-medium text-3xl text-gray-900">30K</h2>
+              <p class="leading-relaxed">Doctors</p>
+            </div>
+          </div>
+          <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+            <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="text-pink-500 w-12 h-12 mb-3 inline-block"
+                viewBox="0 0 24 24"
+              >
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+              <h2 class="title-font font-medium text-3xl text-gray-900">
+                800+
+              </h2>
+              <p class="leading-relaxed">Cities</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr />
+    <section id="dia" class="text-gray-600 body-font">
+     <strong> <h1 style="font-size: 50px;margin-left: 40px;">Diagnosis</h1></strong>
+     <section class="text-gray-600 body-font">
+      <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+          <img style="border-radius: 50%;height: 500px;" class="object-cover object-center rounded" alt="hero" src="https://media.istockphoto.com/photos/financial-business-analytics-data-dashboard-picture-id1311977514?b=1&k=20&m=1311977514&s=170667a&w=0&h=BBlV7kDF7X3gYuYtoOUjbxLfVocdfbBRn3VkZ7na78o=">
+        </div>
+        <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+          <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Lab Tests</h1>
+          <p class="mb-8 leading-relaxed"><p><strong>Diagnosis begins with a physical examination and a medical history.
+
+            Doctors will also perform various tests to help confirm a diagnosis. People with celiac disease often have high levels of antiendomysium (EMA) and anti-tissue transglutaminase (tTGA) antibodies. These can be detected with blood tests. Tests are most reliable when they’re performed while gluten is still in the diet.
+            
+            Common blood tests include:
+            
+            complete blood count (CBC)
+            liver function tests
+            cholesterol test
+            alkaline phosphatase level test
+            serum albumin test
+            In people with DH, a skin biopsy can also help doctors diagnose celiac disease. During a skin biopsy, the doctor will remove tiny pieces of skin tissue for examination with a microscope. If the skin biopsy and blood test results indicate celiac disease, an internal biopsy may not be necessary.
+            
+            In cases where blood test or skin biopsy results are inconclusive, an upper endoscopy can be used to test for celiac disease. During an upper endoscopy, a thin tube called an endoscope is threaded through the mouth and down into the small intestines. A small camera attached to the endoscope allows the doctor to examine the intestines and to check for damage to the villi. The doctor can also perform an intestinal biopsy, which involves the removal of a tissue sample from the intestines for analysis.</strong></p>
+          <div class="flex w-full md:justify-start justify-center items-end">
+            <div class="relative mr-4 lg:w-full xl:w-1/2 w-2/4">
+              <label for="hero-field" class="leading-7 text-sm text-gray-600">Laboratories</label>
+              <input type="text" id="hero-field" name="hero-field" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:ring-2 focus:ring-indigo-200 focus:bg-transparent focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+            </div>
+            <a href="https://www.google.com/search?rlz=1C1RXQR_enIN981IN981&tbs=lf:1,lf_ui:2&tbm=lcl&sxsrf=ALiCzsawBWMobmlcktyllSoBnmzwMXBRPg:1658744490714&q=laboratory+in+chandigarh&rflfq=1&num=10&sa=X&ved=2ahUKEwiVn5Hh6JP5AhWw7TgGHTWCBGIQjGp6BAgKEAE&biw=1366&bih=625&dpr=1#rlfi=hd:;si:;mv:[[30.764914899999997,76.8498606],[30.6866487,76.7285989]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:2"><button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Search</button></a>
+          </div>
+          <p class="text-sm mt-2 text-gray-500 mb-8 w-full"></p>
+          <div class="flex lg:flex-row md:flex-col">
+           
+          </div>
+        </div>
+      </div>
+    </section>
+     <div style="margin-left: 40px;" class="container"><p><strong>Physical Exam:</strong>
+      During a physical exam, a doctor may
+      
+      check for signs of weight loss or growth problems
+      examine your skin for rashes, such as dermatitis herpetiformis
+      listen to sounds in the abdomen using a stethoscope
+      tap on the abdomen to check for pain or swelling
+      In some cases, a dentist may notice signs of celiac disease during an exam. Celiac disease may cause problems with the teeth and mouth, such as defects in tooth enamel or canker sores.
+      
+      What tests do doctors use to diagnose celiac disease?
+      Doctors most often use blood tests and biopsies of the small intestine to diagnose or rule out celiac disease. Doctors don’t recommend starting a gluten-free diet before diagnostic testing because a gluten-free diet can affect test results.
+      
+      In some cases, doctors may order additional tests, such as skin biopsies and genetic tests, to help diagnose or rule out celiac disease.
+      
+      Blood tests
+      A health care professional will take a blood sample from you and send the sample to a lab. Blood tests can show levels of certain antibodies that are often higher than normal in people who have untreated celiac disease. Blood tests may also show signs of health problems that could be related to celiac disease, such as anemia NIH external link.
+      
+      Biopsies of the small intestine
+      A doctor obtains biopsies of the small intestine during an upper GI endoscopy. For an upper GI endoscopy, a doctor uses an endoscope—a flexible tube with a camera—to see the lining of your upper GI tract, including the first part of your small intestine. The doctor passes an instrument through the endoscope to take small pieces of tissue from your small intestine. A pathologist will examine the tissue under a microscope to look for signs of celiac disease.
+      
+      Skin biopsies
+      A doctor may order skin biopsies NIH external link if you have a rash that could be dermatitis herpetiformis. For skin biopsies, a doctor removes small pieces of skin tissue on and next to the rash. A pathologist will examine the tissue under a microscope to look for signs of dermatitis herpetiformis.
+      
+      Genetic testing
+      In some cases, a health care professional may take a blood sample or use a swab to collect cells from the inside of your cheek. The sample will be tested for groups of gene variants called DQ2 and DQ8. If you do not have these gene variants, you are very unlikely to have celiac disease.
+      
+      Having DQ2 or DQ8 alone does not mean you have celiac disease. Most people with these gene variants do not develop celiac disease. If you do have DQ2 or DQ8, your doctor may recommend additional tests to check for or rule out celiac disease.
+      
+      Do doctors screen for celiac disease?
+      Screening is testing for diseases when you have no symptoms. Doctors in the United States do not routinely screen people for celiac disease. However, blood relatives of people with celiac disease and those with type 1 diabetes should talk with their doctor about their chances of getting the disease to see if they should be tested.</p>
+    <br></div>
+
+      <div class="container px-5 py-24 mx-auto flex flex-wrap">
+        
+        <div class="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
+          <div
+            class="h-full w-6 absolute inset-0 flex items-center justify-center"
+          >
+            <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+          </div>
+          <div
+            class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-pink-500 text-white relative z-10 title-font font-medium text-sm"
+          >
+            1
+          </div>
+          <div
+            class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row"
+          >
+            <div
+              class="flex-shrink-0 w-24 h-24 bg-pink-100 text-pink-500 rounded-full inline-flex items-center justify-center"
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="w-12 h-12"
+                viewBox="0 0 24 24"
+              >
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+            </div>
+            <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+              <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">
+                Serelogy Testing
+              </h2>
+              <p class="leading-relaxed">
+                Serology testing looks for antibodies in your blood. Elevated levels of certain antibody proteins indicate an immune reaction to gluten.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
+          <div
+            class="h-full w-6 absolute inset-0 flex items-center justify-center"
+          >
+            <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+          </div>
+          <div
+            class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-pink-500 text-white relative z-10 title-font font-medium text-sm"
+          >
+            2
+          </div>
+          <div
+            class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row"
+          >
+            <div
+              class="flex-shrink-0 w-24 h-24 bg-pink-100 text-pink-500 rounded-full inline-flex items-center justify-center"
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="w-12 h-12"
+                viewBox="0 0 24 24"
+              >
+                <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+              </svg>
+            </div>
+            <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+              <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">
+               Genetic Testing
+              </h2>
+              <p class="leading-relaxed">
+                Genetic testing for human leukocyte antigens (HLA-DQ2 and HLA-DQ8) can be used to rule out celiac disease.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
+          <div
+            class="h-full w-6 absolute inset-0 flex items-center justify-center"
+          >
+            <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+          </div>
+          <div
+            class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-pink-500 text-white relative z-10 title-font font-medium text-sm"
+          >
+            3
+          </div>
+          <div
+            class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row"
+          >
+            <div
+              class="flex-shrink-0 w-24 h-24 bg-pink-100 text-pink-500 rounded-full inline-flex items-center justify-center"
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="w-12 h-12"
+                viewBox="0 0 24 24"
+              >
+                <circle cx="12" cy="5" r="3"></circle>
+                <path d="M12 22V8M5 12H2a10 10 0 0020 0h-3"></path>
+              </svg>
+            </div>
+            <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+              <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">
+                Capsule Endoscopy
+              </h2>
+              <p class="leading-relaxed">
+                Capsule endoscopy. This test uses a tiny wireless camera to take pictures of your entire small intestine. The camera sits inside a vitamin-sized capsule, which you swallow. As the capsule travels through your digestive tract, the camera takes thousands of pictures that are transmitted to a recorder.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="flex relative pb-10 sm:items-center md:w-2/3 mx-auto">
+          <div
+            class="h-full w-6 absolute inset-0 flex items-center justify-center"
+          >
+            <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+          </div>
+          <div
+            class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-pink-500 text-white relative z-10 title-font font-medium text-sm"
+          >
+            4
+          </div>
+          <div
+            class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row"
+          >
+            <div
+              class="flex-shrink-0 w-24 h-24 bg-pink-100 text-pink-500 rounded-full inline-flex items-center justify-center"
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="w-12 h-12"
+                viewBox="0 0 24 24"
+              >
+                <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                <circle cx="12" cy="7" r="4"></circle>
+              </svg>
+            </div>
+            <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+              <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">
+                Endoscopy
+              </h2>
+              <p class="leading-relaxed">
+                Endoscopy. This test uses a long tube with a tiny camera that's put into your mouth and passed down your throat (upper endoscopy). The camera enables your doctor to view your small intestine and take a small tissue sample (biopsy) to analyze for damage to the villi.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr />
+    <section id="special" class="text-gray-600 body-font">
+      <div
+        class="container mx-auto flex flex-col px-5 py-24 justify-center items-center"
+      >
+        <img
+          class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded"
+          alt="hero"
+          src="https://media.istockphoto.com/photos/human-body-digestive-system-anatomy-picture-id1265549997?b=1&k=20&m=1265549997&s=170667a&w=0&h=6wH-FRW6e1Ixz-Fe1el7xkQn7b9cOkqcuHNdMddIBXw="
+        />
+        <div
+          class="w-full md:w-2/3 flex flex-col mb-16 items-center text-center"
+        >
+          <h1
+            class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900"
+          >
+            Gastroentrologist
+          </h1>
+          <p class="mb-8 leading-relaxed">
+            A gastroenterologist is a specialist with expertise in the disorders
+            and diseases that affect the digestive system — which includes the
+            gastrointestinal tract (esophagus, stomach, small intestine, large
+            intestine, rectum and anus) as well as the pancreas, liver, bile
+            ducts and gallbladder.
+          </p>
+          <div class="flex w-full justify-center items-end">
+            <div
+              class="relative mr-4 lg:w-full xl:w-1/2 w-2/4 md:w-full text-left"
+            >
+              <label for="hero-field" class="leading-7 text-sm text-gray-600"
+                >Doctors</label
+              >
+              <input
+                type="text"
+                id="hero-field"
+                name="hero-field"
+                class="w-full bg-gray-100 bg-opacity-50 rounded focus:ring-2 focus:ring-indigo-200 focus:bg-transparent border border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              />
+            </div>
+            <a
+              href="https://www.google.com/search?rlz=1C1RXQR_enIN981IN981&tbs=lf:1,lf_ui:2&tbm=lcl&sxsrf=ALiCzsYaIhvKQ79ZXn9vuQkH6nnPA_Zbeg:1658733780611&q=gastroenterologist+in+chandigarh&rflfq=1&num=10&ved=2ahUKEwiFrpTuwJP5AhWf8zgGHZxGBgEQtgN6BAgIEAY#rlfi=hd:;si:;mv:[[30.865778881118665,77.07413551083984],[30.588362782664017,76.42456886044921],null,[30.727170631237946,76.74935218564453],11]"
+              ><button
+                class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+              >
+                Search
+              </button></a
+            >
+          </div>
+          <p class="text-sm mt-2 text-gray-500 mb-8 w-full">
+            Top doctors in Chandigarh (India).
+          </p>
+
+          <h1 style="font-weight: bolder">Or Download Gastro App</h1>
+          <br />
+          <div class="flex">
+            <h2 style="display: inline-block"></h2>
+            <br />
+            <br /><br /><br /><button
+              class="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-200 focus:outline-none"
+            >
+              <br />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                class="w-6 h-6"
+                viewBox="0 0 512 512"
+              >
+                <path
+                  d="M99.617 8.057a50.191 50.191 0 00-38.815-6.713l230.932 230.933 74.846-74.846L99.617 8.057zM32.139 20.116c-6.441 8.563-10.148 19.077-10.148 30.199v411.358c0 11.123 3.708 21.636 10.148 30.199l235.877-235.877L32.139 20.116zM464.261 212.087l-67.266-37.637-81.544 81.544 81.548 81.548 67.273-37.64c16.117-9.03 25.738-25.442 25.738-43.908s-9.621-34.877-25.749-43.907zM291.733 279.711L60.815 510.629c3.786.891 7.639 1.371 11.492 1.371a50.275 50.275 0 0027.31-8.07l266.965-149.372-74.849-74.847z"
+                ></path>
+              </svg>
+              <span class="ml-4 flex items-start flex-col leading-none">
+                <a href=""
+                  ><span class="text-xs text-gray-600 mb-1">GET IT ON</span></a
+                >
+                <a
+                  href="https://play.google.com/store/games?utm_source=apac_med&utm_medium=hasem&utm_content=Oct0121&utm_campaign=Evergreen&pcampaignid=MKT-EDR-apac-in-1003227-med-hasem-py-Evergreen-Oct0121-Text_Search_BKWS-BKWS%7CONSEM_kwid_43700065205026385_creativeid_535350509687_device_c&gclid=Cj0KCQjw_viWBhD8ARIsAH1mCd58LJJtx6fbT1iZ2aPro-GQh2XuCnJ4fDMNoF7Rbc3K_kiDsSkNQtcaAlm4EALw_wcB&gclsrc=aw.ds"
+                  ><span class="title-font font-medium">Google Play</span></a
+                >
+              </span>
+            </button>
+            <button
+              class="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center ml-4 hover:bg-gray-200 focus:outline-none"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                class="w-6 h-6"
+                viewBox="0 0 305 305"
+              >
+                <path
+                  d="M40.74 112.12c-25.79 44.74-9.4 112.65 19.12 153.82C74.09 286.52 88.5 305 108.24 305c.37 0 .74 0 1.13-.02 9.27-.37 15.97-3.23 22.45-5.99 7.27-3.1 14.8-6.3 26.6-6.3 11.22 0 18.39 3.1 25.31 6.1 6.83 2.95 13.87 6 24.26 5.81 22.23-.41 35.88-20.35 47.92-37.94a168.18 168.18 0 0021-43l.09-.28a2.5 2.5 0 00-1.33-3.06l-.18-.08c-3.92-1.6-38.26-16.84-38.62-58.36-.34-33.74 25.76-51.6 31-54.84l.24-.15a2.5 2.5 0 00.7-3.51c-18-26.37-45.62-30.34-56.73-30.82a50.04 50.04 0 00-4.95-.24c-13.06 0-25.56 4.93-35.61 8.9-6.94 2.73-12.93 5.09-17.06 5.09-4.64 0-10.67-2.4-17.65-5.16-9.33-3.7-19.9-7.9-31.1-7.9l-.79.01c-26.03.38-50.62 15.27-64.18 38.86z"
+                ></path>
+                <path
+                  d="M212.1 0c-15.76.64-34.67 10.35-45.97 23.58-9.6 11.13-19 29.68-16.52 48.38a2.5 2.5 0 002.29 2.17c1.06.08 2.15.12 3.23.12 15.41 0 32.04-8.52 43.4-22.25 11.94-14.5 17.99-33.1 16.16-49.77A2.52 2.52 0 00212.1 0z"
+                ></path>
+              </svg>
+              <span class="ml-4 flex items-start flex-col leading-none">
+                <a href="https://www.apple.com/in/app-store/"></a>
+                  <span class="text-xs text-gray-600 mb-1"
+                    >Download on the</span
+                  ></a
+                >
+                <a href="https://www.apple.com/in/app-store/"
+                  ><span class="title-font font-medium">App Store</span></a
+                >
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr />
+    <section id="self" class="text-gray-600 body-font">
+      <div class="container px-5 py-24 mx-auto">
+        <div class="flex flex-col text-center w-full mb-20">
+          <h2
+            class="text-xs text-pink-500 tracking-widest font-medium title-font mb-1"
+          >
+            
+          </h2>
+          <h1   class="sm:text-6xl text-4xl font-medium title-font text-gray-900"> 
+           Self Care
+          </h1>
+        </div>
+        <div class="flex flex-wrap -m-4">
+          <div class="p-4 md:w-1/3">
+            <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
+              <div class="flex items-center mb-3">
+                <div
+                  class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-pink-500 text-white flex-shrink-0"
+                >
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    class="w-5 h-5"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                  </svg>
+                </div>
+                <h2 class="text-gray-900 text-lg title-font font-medium">
+                Gluten free diet
+                </h2>
+              </div>
+              <div class="flex-grow">
+                <p class="leading-relaxed text-base">
+                  The only way to manage the symptoms of celiac disease is to eat a strict gluten-free diet. Eating foods without gluten lets your small intestine heal, and stops future problems and inflammation.
+
+You’ll need to avoid any foods made with wheat and wheat flour. You also can’t eat foods that contain any of the following grains because they also have gluten in them:
+
+Rye
+Barley
+Durum
+Farina
+Graham flour
+Malt
+Semolina.
+                </p>
+                <a href="https://www.healthline.com/nutrition/gluten-free-foods" class="mt-3 text-pink-500 inline-flex items-center"
+                  >Learn More
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    class="w-4 h-4 ml-2"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="p-4 md:w-1/3">
+            <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
+              <div class="flex items-center mb-3">
+                <div
+                  class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-pink-500 text-white flex-shrink-0"
+                >
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    class="w-5 h-5"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                    <circle cx="12" cy="7" r="4"></circle>
+                  </svg>
+                </div>
+                <h2 class="text-gray-900 text-lg title-font font-medium">
+                  Taking Suppliments
+                </h2>
+              </div>
+              <div class="flex-grow">
+                <p class="leading-relaxed text-base">
+                  Sometimes people with celiac disease can be deficient in certain nutrients because their body doesn’t absorb them properly. The most common includes Iron
+                  Calcium
+                  Fiber
+                  Zinc
+                  Vitamin D
+                  Niacin
+                  Magnesium
+                  Folate.
+                </p>
+                <a href="https://glutenfreeandmore.com/blog/2014/02/top-6-supplements-for-celiac-disease-and-gluten-sensitivity.html" class="mt-3 text-pink-500 inline-flex items-center"
+                  >Learn More
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    class="w-4 h-4 ml-2"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="p-4 md:w-1/3">
+            <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
+              <div class="flex items-center mb-3">
+                <div
+                  class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-pink-500 text-white flex-shrink-0"
+                >
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    class="w-5 h-5"
+                    viewBox="0 0 24 24"
+                  >
+                    <circle cx="6" cy="6" r="3"></circle>
+                    <circle cx="6" cy="18" r="3"></circle>
+                    <path
+                      d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"
+                    ></path>
+                  </svg>
+                </div>
+                <h2 class="text-gray-900 text-lg title-font font-medium">
+                  Avoiding inflammatory foods
+                </h2>
+              </div>
+              <div class="flex-grow">
+                <p class="leading-relaxed text-base">
+                  Foods that cause inflammation
+refined carbohydrates, such as white bread and pastries. French fries and other fried foods. soda and other sugar-sweetened beverages. red meat (burgers, steaks) and processed meat (hot dogs, sausage).
+                </p>
+                <a href="https://www.healthline.com/nutrition/6-foods-that-cause-inflammation" class="mt-3 text-pink-500 inline-flex items-center"
+                  >Learn More
+                  <svg
+                  
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    class="w-4 h-4 ml-2"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg> 
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr />
+    
+    <footer class="text-gray-600 body-font">
+      <div
+        class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col"
+      >
+        <!-- <a
+          class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900"
+        >
+          <svg
+            xmlns="data:image/png;base64,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"
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            class="w-10 h-10 text-white p-2 bg-pink-500 rounded-full"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"
+            ></path>
+          </svg>
+          <!-- <span class="ml-3 text-xl">Tailblocks</span> -->
+        </a> 
+        <p
+          class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4"
+        >
+          © 2022 Jatin Saini 
+          <a
+            href="https://twitter.com/knyttneve"
+            class="text-gray-600 ml-1"
+            rel="noopener noreferrer"
+            target="_blank"
+            ></a
+          >
+        </p>
+        <span
+          class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start"
+        >
+          <a class="text-gray-500">
+            <svg
+              fill="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="w-5 h-5"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"
+              ></path>
+            </svg>
+          </a>
+          <a class="ml-3 text-gray-500">
+            <svg
+              fill="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="w-5 h-5"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"
+              ></path>
+            </svg>
+          </a>
+          <a class="ml-3 text-gray-500">
+            <svg
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="w-5 h-5"
+              viewBox="0 0 24 24"
+            >
+              <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+              <path
+                d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"
+              ></path>
+            </svg>
+          </a>
+          <a class="ml-3 text-gray-500">
+            <svg
+              fill="currentColor"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="0"
+              class="w-5 h-5"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke="none"
+                d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"
+              ></path>
+              <circle cx="4" cy="4" r="2" stroke="none"></circle>
+            </svg>
+          </a>
+        </span>
+      </div>
+    </footer>
+  </body>
+</html>
